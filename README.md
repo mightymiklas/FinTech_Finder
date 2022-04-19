@@ -25,7 +25,10 @@ conda create -n myenv python=3.7
 ```
 4. Install the required packages:
 ```shell
-pip install -r requirements.txt
+pip install streamlit
+pip install dotenv
+pip install bip44
+pip install web3
 ```
 5. Run the program:
 ```shell
